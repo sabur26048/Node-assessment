@@ -3,7 +3,7 @@ const collection=require("./schema")
 const router = express.Router();
 const multer = require("multer");
 const csv=require("csvtojson");
-
+// using mutler for csv upload..
 const storage =multer.diskStorage({ 
 destination: (req, file, cb) => {
 cb (null,"./uploads"); 

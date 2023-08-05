@@ -1,0 +1,20 @@
+---------step to run-------------
+
+1. In node enviroment install appropiate modules.
+ ( "csvtojson","express","mogoose","mongodb","mongoose","multer","dotenv","nodemon")
+
+ 2.      To start server run command "npm run start"
+
+ 3.      Check the enviroment varrible for database connect as i have used ,
+   my atlas db and have already made it public,but cheking will be needed once.
+
+4. http://localhost:3000/update-csv api-end point for adding CSV in mongodb
+   use post request and in req-body as a form-data attache the CSV file and use key "csvFile".
+
+5    http://localhost:3000/user/
+     http://localhost:3000/account/
+     http://localhost:3000/policy/   
+     
+ These are 3 api-end point for CRUD operation use,account and policy
+use query param to succesfull the operation.
+
